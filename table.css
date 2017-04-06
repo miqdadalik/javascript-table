@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+table {
+    border: 1px solid #cbcbcb;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+table thead th {
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+}
+table thead th,
+table tbody td {
+    border-left: 1px solid #cbcbcb;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em;
+    vertical-align: middle;
+}
+table tbody td {
+    border-bottom: 1px solid #cbcbcb;
+    color: #777;
+}
